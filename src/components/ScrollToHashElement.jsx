@@ -17,8 +17,7 @@ const ScrollToHashElement = () => {
 
       if (element) {
         const targetPosition =
-          element.offsetTop -
-          60; /* You can increase or decrease the number based on your need*/
+          element.offsetTop - 60; /* You can increase or decrease the number based on your need*/
         element.scrollIntoView({
           behavior: "smooth",
           inline: "nearest",
